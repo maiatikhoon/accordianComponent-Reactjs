@@ -1,0 +1,56 @@
+
+
+.wrapper{ 
+
+    display: flex; 
+    height: 100vh; 
+    width: 100vw; 
+    justify-content: center ; 
+    align-items: center; 
+    flex-direction: column; 
+    gap: 20px;
+} 
+
+.wrapper button { 
+    padding: 10px 20px; 
+    background-color: brown; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.accordian{ 
+
+     width: 500px;
+}
+
+.item { 
+
+    background-color: brown; 
+    margin-bottom: 10px; 
+    padding: 10px 20px; 
+   
+}
+
+
+
+.title { 
+
+    color:#fff; 
+    display: flex; 
+    justify-content: space-between ; 
+    align-items: center; 
+    cursor:pointer; 
+}
+
+.icon { 
+    font-size:22px; 
+    font-weight: bold;
+}
+
+.content { 
+
+    color: white; 
+    height: auto;
+}
